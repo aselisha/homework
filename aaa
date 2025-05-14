@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Звіт: Штучний інтелект</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background-color: #fff0da;
+        line-height: 1.6;
+      }
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        background-color: #fff0da;
+        padding: 20px;
+        border: 1px solid #ddd;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      h1 {
+        color: #000000;
+        text-align: center;
+      }
+      h2 {
+        color: #000000;
+        margin-top: 30px;
+      }
+      .main-item {
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 25px;
+        margin-bottom: 15px;
+        list-style-type: disc;
+        color: #000;
+      }
+      .sub-item {
+        font-size: 16px;
+        margin-left: 20px;
+        margin-bottom: 10px;
+        list-style-type: square;
+        color: #000;
+      }
+      .orange-dot {
+        color: #ff8c00;
+        font-size: 24px;
+        margin-right: 10px;
+      }
+      .orange-square {
+        color: #ff8c00;
+        font-size: 18px;
+        margin-right: 10px;
+        margin-left: 20px;
+      }
+      .menu {
+        background-color: #4169e1;
+        padding: 10px;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+      .menu a {
+        color: white;
+        margin: 0 15px;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      .menu a:hover {
+        text-decoration: underline;
+      }
+      .footer {
+        margin-top: 30px;
+        text-align: center;
+        font-size: 0.8em;
+        color: #777;
+      }
+      .ai-item {
+        margin-bottom: 20px;
+      }
+      .ai-name {
+        font-weight: bold;
+      }
+      .ai-description {
+        font-style: italic;
+        margin: 5px 0;
+      }
+      .ai-application {
+        margin-top: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Завдання 4. Штучний інтелект (звіт)</h1>
+
+      <!-- Пункт 1 -->
+      <p>
+        <span class="orange-dot">•</span>
+        <span class="main-item"
+          >Три ШІ, які найцікавіші для практичного використання:</span
+        >
+      </p>
+
+      <p>
+        <span class="orange-square">■</span>
+        <span class="ai-item">
+          <span class="ai-name">ChatGPT (OpenAI)</span><br />
+          <span class="ai-description"
+            ><i>Чому цікавий:</i> Потужний мовний асистент, який може допомогти
+            з написанням текстів, відповідями на запитання, створенням
+            навчальних матеріалів та підготовкою до екзаменів.</span
+          ><br />
+          <span class="ai-application"
+            ><i>Практичне застосування:</i> Допомога в написанні рефератів,
+            створення планів навчання, пояснення складних понять простими
+            словами, переклад текстів.</span
+          >
+        </span>
+      </p>
+
+      <p>
+        <span class="orange-square">■</span>
+        <span class="ai-item">
+          <span class="ai-name">Midjourney</span><br />
+          <span class="ai-description"
+            ><i>Чому цікавий:</i> Генератор зображень на основі текстових
+            описів, який дозволяє створювати унікальні ілюстрації для
+            проєктів.</span
+          ><br />
+          <span class="ai-application"
+            ><i>Практичне застосування:</i> Створення візуального контенту для
+            презентацій, ілюстрацій для навчальних матеріалів, розробка
+            креативних концепцій.</span
+          >
+        </span>
+      </p>
+
+      <p>
+        <span class="orange-square">■</span>
+        <span class="ai-item">
+          <span class="ai-name">Perplexity AI</span><br />
+          <span class="ai-description"
+            ><i>Чому цікавий:</i> Пошуковий асистент з функцією генерації
+            відповідей та посиланнями на джерела, який поєднує пошук інформації
+            та аналіз.</span
+          ><br />
+          <span class="ai-application"
+            ><i>Практичне застосування:</i> Пошук та аналіз наукової інформації
+            з посиланнями на джерела, підготовка дослідницьких матеріалів, збір
+            даних для навчальних проєктів.</span
+          >
+        </span>
+      </p>
+
+      <!-- Пункт 2 -->
+      <p>
+        <span class="orange-dot">•</span>
+        <span class="main-item">Популярні моделі ШІ:</span>
+      </p>
+
+      <p>
+        <span class="orange-square">■</span>
+        <span class="ai-item">
+          <span class="ai-name">GPT (Generative Pre-trained Transformer)</span
+          ><br />
+          <span class="ai-description"
+            >Модель для обробки природної мови, здатна генерувати тексти,
+            відповідати на запитання та виконувати різноманітні мовні
+            завдання.</span
+          >
+        </span>
+      </p>
+
+      <p>
+        <span class="orange-square">■</span>
+        <span class="ai-item">
+          <span class="ai-name">DALL-E</span><br />
+          <span class="ai-description"
+            >Нейронна мережа, яка створює зображення на основі текстового
+            опису.</span
+          >
+        </span>
+      </p>
+
+      <p>
+        <span class="orange-square">■</span>
+        <span class="ai-item">
+          <span class="ai-name">AlphaGo</span><br />
+          <span class="ai-description"
+            >Програма, що навчилася грати в настільну гру го і перемогла
+            чемпіона світу.</span
+          >
+        </span>
+      </p>
+
+      <!-- Пункт 3 -->
+      <p>
+        <span class="orange-dot">•</span>
+        <span class="main-item"
+          >5 запитів (промптів) для навчання та роботи:</span
+        >
+      </p>
+
+      <p>
+        <span class="orange-square">■</span>
+        <span class="sub-item">
+          "Створи план підготовки до екзамену з [предмет] за 2 тижні. Розбий
+          матеріал на щоденні завдання, включи ключові поняття та рекомендовані
+          методи запам'ятовування."
+        </span>
+      </p>
+
+      <p>
+        <span class="orange-square">■</span>
+        <span class="sub-item">
+          "Поясни концепцію [складна тема] так, ніби я учень 5 класу. Використай
+          прості приклади з повсякденного життя і поясни, чому це важливо."
+        </span>
+      </p>
+
+      <p>
+        <span class="orange-square">■</span>
+        <span class="sub-item">
+          "Створи набір з 10 різнорівневих питань з відповідями з теми [тема]
+          для самоперевірки знань. Розподіли їх на легкі, середні та складні."
+        </span>
+      </p>
+
+      <p>
+        <span class="orange-square">■</span>
+        <span class="sub-item">
+          "Проаналізуй аргументи «за» і «проти» використання [технологія/підхід]
+          у сфері [галузь]. Розглянь етичні, практичні та соціальні аспекти."
+        </span>
+      </p>
+
+      <p>
+        <span class="orange-square">■</span>
+        <span class="sub-item">
+          "Допоможи структурувати мою дослідницьку роботу про [тема]. Запропонуй
+          основні розділи, ключові питання для кожного розділу та потенційні
+          джерела інформації."
+        </span>
+      </p>
+    </div>
+  </body>
+</html>
